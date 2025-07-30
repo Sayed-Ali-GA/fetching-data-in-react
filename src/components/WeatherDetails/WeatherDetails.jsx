@@ -5,7 +5,7 @@ const WeatherDetails = (props) => {
   return (
     <section>
       <h2>Weather Details</h2>
-      <p>Location: {props.loction}</p>
+      <p>Location: {props.location}</p>
       <p>Temperature: {props.temperature}</p>
       <p>Condition: {props.condition}</p>
     </section>

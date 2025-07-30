@@ -15,7 +15,7 @@ const [weather, setWeather] = useState({});
     <section>
       <h2>Search</h2>
       <form onSubmit={handleSubmit}>
-        <label htmlFor="city">Enter a city:</label>
+        <label htmlFor="city">Enter a city: </label>
         <input
           id="city"
           type="text"
